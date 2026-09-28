@@ -3,8 +3,25 @@
 }
 
 body {
-    margin: 20px;
-    font-family: sans-serif;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
+header {
+    width: 90%;
+    margin: 25px auto;
+}
+main {
+    width:90%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
 }
